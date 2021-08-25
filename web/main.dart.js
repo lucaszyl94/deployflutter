@@ -9820,7 +9820,7 @@ _.r=$
 _.x=null},
 amC:function(a,b){var s=0,r=P.I(t.Ts),q,p,o,n,m,l
 var $async$amC=P.E(function(c,d){if(c===1)return P.F(d,r)
-while(true)switch(s){case 0:o=P.de("http://127.0.0.1:8000/api/v1/heroes/",0,null)
+while(true)switch(s){case 0:o=P.de("http://3.218.44.98:8000/api/v1/heroes/",0,null)
 n=t.O
 m=P.a4(["Content-Type","application/json; charset=UTF-8"],n,n)
 s=3
@@ -41452,7 +41452,7 @@ Y.UT.prototype={
 $0:function(){var s=0,r=P.I(t.P)
 var $async$$0=P.E(function(a,b){if(a===1)return P.F(b,r)
 while(true)switch(s){case 0:s=2
-return P.w(new B.v6().mi(H.dp("http://127.0.0.1:8000/",".","")),$async$$0)
+return P.w(new B.v6().mi(H.dp("http://3.218.44.98:8000/",".","")),$async$$0)
 case 2:return P.G(null,r)}})
 return P.H($async$$0,r)},
 $S:16}
@@ -41841,7 +41841,7 @@ ob:function(){var s=0,r=P.I(t.z),q,p,o
 var $async$ob=P.E(function(a,b){if(a===1)return P.F(b,r)
 while(true)switch(s){case 0:p=t.O
 s=3
-return P.w(G.DO(P.de("http://127.0.0.1:8000/api/v1/datosimpresion",0,null),P.a4(["Content-Type","application/json; charset=UTF-8"],p,p)),$async$ob)
+return P.w(G.DO(P.de("http://3.218.44.98:8000/api/v1/datosimpresion",0,null),P.a4(["Content-Type","application/json; charset=UTF-8"],p,p)),$async$ob)
 case 3:o=b
 q=C.H.fi(0,B.fZ(U.fW(o.e).c.a.h(0,"charset")).bQ(0,o.x),null)
 s=1
@@ -42410,7 +42410,7 @@ ahm:function(a){var s=0,r=P.I(t.yq),q,p,o
 var $async$ty=P.E(function(b,c){if(b===1)return P.F(c,r)
 while(true)switch(s){case 0:p=t.O
 s=3
-return P.w(G.DO(P.de("http://127.0.0.1:8000/"+("api/v1/checkpago/"+H.c(a)),0,null),P.a4(["Content-Type","application/json","Access-Control-Allow-Origin","*","Vary","Accept,Cookie","Allow","POST, OPTIONS"],p,p)),$async$ty)
+return P.w(G.DO(P.de("http://3.218.44.98:8000/"+("api/v1/checkpago/"+H.c(a)),0,null),P.a4(["Content-Type","application/json","Access-Control-Allow-Origin","*","Vary","Accept,Cookie","Allow","POST, OPTIONS"],p,p)),$async$ty)
 case 3:o=c
 if(o.b===200)if(H.pp(J.a_(C.H.fi(0,B.fZ(U.fW(o.e).c.a.h(0,"charset")).bQ(0,o.x),null),"estadoPago"))===!0){q=!0
 s=1
@@ -42499,7 +42499,7 @@ $S:446}
 Q.dw.prototype={
 rT:function(){var s=0,r=P.I(t.yq),q,p=this,o,n,m
 var $async$rT=P.E(function(a,b){if(a===1)return P.F(b,r)
-while(true)switch(s){case 0:o=P.de("http://127.0.0.1:8000/"+("api/v1/pedido/"+H.c(p.cy)),0,null)
+while(true)switch(s){case 0:o=P.de("http://3.218.44.98:8000/"+("api/v1/pedido/"+H.c(p.cy)),0,null)
 n=t.O
 m=P.a4(["Content-Type","application/json; charset=UTF-8"],n,n)
 s=3
@@ -42514,7 +42514,7 @@ R_:function(a){return J.h1(J.pG(C.H.fi(0,a,null),t.fs),new Q.a64(),t.t6).e1(0)},
 l_:function(){var s=0,r=P.I(t.ZU),q,p=this,o
 var $async$l_=P.E(function(a,b){if(a===1)return P.F(b,r)
 while(true)switch(s){case 0:s=3
-return P.w(G.DO(P.de("http://127.0.0.1:8000/"+("api/v1/pedidosUser/"+H.c(p.db)),0,null),null),$async$l_)
+return P.w(G.DO(P.de("http://3.218.44.98:8000/"+("api/v1/pedidosUser/"+H.c(p.db)),0,null),null),$async$l_)
 case 3:o=b
 s=4
 return P.w(p.R_(B.fZ(U.fW(o.e).c.a.h(0,"charset")).bQ(0,o.x)),$async$l_)
@@ -42526,7 +42526,7 @@ return P.H($async$l_,r)},
 ml:function(){var s=0,r=P.I(t.ZU),q,p=this,o
 var $async$ml=P.E(function(a,b){if(a===1)return P.F(b,r)
 while(true)switch(s){case 0:s=3
-return P.w(G.DO(P.de("http://127.0.0.1:8000/api/v1/pedido/",0,null),null),$async$ml)
+return P.w(G.DO(P.de("http://3.218.44.98:8000/api/v1/pedido/",0,null),null),$async$ml)
 case 3:o=b
 s=4
 return P.w(p.R_(B.fZ(U.fW(o.e).c.a.h(0,"charset")).bQ(0,o.x)),$async$ml)
@@ -42538,7 +42538,7 @@ return P.H($async$ml,r)},
 u1:function(a,b,c,d,e,f,g,h,i,j,k){return this.TU(a,b,c,d,e,f,g,h,i,j,k)},
 TU:function(a,b,c,d,e,f,g,h,i,j,k){var s=0,r=P.I(t.t6),q,p,o,n,m
 var $async$u1=P.E(function(l,a0){if(l===1)return P.F(a0,r)
-while(true)switch(s){case 0:p=P.de("http://127.0.0.1:8000/api/v1/precio/",0,null)
+while(true)switch(s){case 0:p=P.de("http://3.218.44.98:8000/api/v1/precio/",0,null)
 o=t.O
 n=P.a4(["Content-Type","application/json","Access-Control-Allow-Origin","*","Vary","Accept,Cookie","Allow","POST, OPTIONS"],o,o)
 s=3
@@ -42552,7 +42552,7 @@ return P.H($async$u1,r)},
 xM:function(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o){return this.age(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o)},
 age:function(a,b,c,d,e,f,g,h,i,j,k,l,a0,a1,a2){var s=0,r=P.I(t.t6),q,p,o,n,m
 var $async$xM=P.E(function(a3,a4){if(a3===1)return P.F(a4,r)
-while(true)switch(s){case 0:p=P.de("http://127.0.0.1:8000/api/v1/pedido/",0,null)
+while(true)switch(s){case 0:p=P.de("http://3.218.44.98:8000/api/v1/pedido/",0,null)
 o=t.O
 n=P.a4(["Content-Type","application/json","Access-Control-Allow-Origin","*","Vary","Accept,Cookie","Allow","POST, OPTIONS"],o,o)
 s=3
@@ -43060,7 +43060,7 @@ acY:function(a){var s=0,r=P.I(t.xJ),q,p=this,o,n
 var $async$wJ=P.E(function(b,c){if(b===1)return P.F(c,r)
 while(true)switch(s){case 0:o=t.O
 s=3
-return P.w(a.LX("GET",P.de("http://127.0.0.1:8000/",0,null),P.a4(["Accept","application/json","Access-Control-Allow-Origin","true"],o,o)),$async$wJ)
+return P.w(a.LX("GET",P.de("http://3.218.44.98:8000/",0,null),P.a4(["Accept","application/json","Access-Control-Allow-Origin","true"],o,o)),$async$wJ)
 case 3:n=c
 q=p.afM(B.fZ(U.fW(n.e).c.a.h(0,"charset")).bQ(0,n.x))
 s=1
@@ -43326,7 +43326,7 @@ tP:function(){var s=0,r=P.I(t.F5),q,p=this,o,n
 var $async$tP=P.E(function(a,b){if(a===1)return P.F(b,r)
 while(true)switch(s){case 0:o=t.O
 s=3
-return P.w(G.DO(P.de("http://127.0.0.1:8000/"+("api/v1/user/"+H.c(p.c)),0,null),P.a4(["Content-Type","application/json; charset=UTF-8","Allow","POST, OPTIONS","Vary","Accept","Access-Control-Allow-Origin","*"],o,o)),$async$tP)
+return P.w(G.DO(P.de("http://3.218.44.98:8000/"+("api/v1/user/"+H.c(p.c)),0,null),P.a4(["Content-Type","application/json; charset=UTF-8","Allow","POST, OPTIONS","Vary","Accept","Access-Control-Allow-Origin","*"],o,o)),$async$tP)
 case 3:n=b
 if(n.b===200){q=M.adE(C.H.fi(0,B.fZ(U.fW(n.e).c.a.h(0,"charset")).bQ(0,n.x),null))
 s=1
@@ -43337,7 +43337,7 @@ p9:function(){var s=0,r=P.I(t.F5),q,p=this,o,n
 var $async$p9=P.E(function(a,b){if(a===1)return P.F(b,r)
 while(true)switch(s){case 0:o=t.O
 s=3
-return P.w(new O.jP(P.aN(t.Gf)).io("POST",P.de("http://127.0.0.1:8000/api/v1/login/",0,null),P.a4(["Content-Type","application/json; charset=UTF-8","Allow","POST, OPTIONS","Vary","Accept","Access-Control-Allow-Origin","*"],o,o),C.H.kV(P.a4(["email",p.c,"clave",p.d],o,o),null),null),$async$p9)
+return P.w(new O.jP(P.aN(t.Gf)).io("POST",P.de("http://3.218.44.98:8000/api/v1/login/",0,null),P.a4(["Content-Type","application/json; charset=UTF-8","Allow","POST, OPTIONS","Vary","Accept","Access-Control-Allow-Origin","*"],o,o),C.H.kV(P.a4(["email",p.c,"clave",p.d],o,o),null),null),$async$p9)
 case 3:n=b
 if(n.b===200){q=M.adE(C.H.fi(0,B.fZ(U.fW(n.e).c.a.h(0,"charset")).bQ(0,n.x),null))
 s=1
@@ -43348,7 +43348,7 @@ vY:function(){var s=0,r=P.I(t.yq),q,p=this,o
 var $async$vY=P.E(function(a,b){if(a===1)return P.F(b,r)
 while(true)switch(s){case 0:o=t.O
 s=3
-return P.w(G.ayx(P.de("http://127.0.0.1:8000/"+("api/v1/user/"+H.c(p.c)),0,null),P.a4(["Content-Type","application/json; charset=UTF-8"],o,o)),$async$vY)
+return P.w(G.ayx(P.de("http://3.218.44.98:8000/"+("api/v1/user/"+H.c(p.c)),0,null),P.a4(["Content-Type","application/json; charset=UTF-8"],o,o)),$async$vY)
 case 3:if(b.b===200){q=!0
 s=1
 break}q=!1
@@ -43359,7 +43359,7 @@ return P.H($async$vY,r)},
 xq:function(){var s=0,r=P.I(t.F5),q,p=this,o,n,m,l,k
 var $async$xq=P.E(function(a,b){if(a===1)return P.F(b,r)
 while(true)switch(s){case 0:o=p.c
-n=P.de("http://127.0.0.1:8000/"+("api/v1/user/"+H.c(o)),0,null)
+n=P.de("http://3.218.44.98:8000/"+("api/v1/user/"+H.c(o)),0,null)
 m=t.O
 l=P.a4(["Content-Type","application/json; charset=UTF-8"],m,m)
 s=3
@@ -43372,7 +43372,7 @@ case 1:return P.G(q,r)}})
 return P.H($async$xq,r)},
 oV:function(){var s=0,r=P.I(t.F5),q,p=this,o,n,m,l
 var $async$oV=P.E(function(a,b){if(a===1)return P.F(b,r)
-while(true)switch(s){case 0:o=P.de("http://127.0.0.1:8000/api/v1/users/",0,null)
+while(true)switch(s){case 0:o=P.de("http://3.218.44.98:8000/api/v1/users/",0,null)
 n=t.O
 m=P.a4(["Content-Type","application/json; charset=UTF-8"],n,n)
 s=3
